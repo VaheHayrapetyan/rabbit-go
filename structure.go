@@ -161,3 +161,6 @@ type Publishing struct {
 	// The application specific payload of the message
 	Body []byte `json:"body"`
 }
+
+//TODO 1: Add exchanges
+//TODO 2: Add Producers, Consumers functions in Client interface
